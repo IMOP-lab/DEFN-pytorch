@@ -9,14 +9,14 @@ Xingru Huang, Yihao Guo, Jian Huang, Zhi Li, Tianyun Zhang, Kunyan Cai, Gaopeng 
 Hangzhou Dianzi University
 
 <div align=center>
-  <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/System_structure.png">
+  <img src="https://github.com/IMOP-lab/DEFN-pytorch/blob/main/images/System_structure.png">
 </div>
 <p align=center>
   Figure 1: The System structure.
 </p>
 
 <div align=center>
-  <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/Network_structure.png">
+  <img src="https://github.com/IMOP-lab/DEFN-pytorch/blob/main/images/Network_structure.png">
 </div>
 <p align=center>
   Figure 2: The network structure of DEFN. 
