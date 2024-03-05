@@ -22,7 +22,7 @@ Hangzhou Dianzi University
   Figure 2: The network structure of DEFN. 
 </p>
 
-We proposed DEFN, a 3D OCT segmentation network for eye diseases with unobvious characteristics and easy to be interfered with, such as macular hole and macular edema.
+We proposed DEFN, a 3D OCT segmentation network for eye diseases with unobvious characteristics and easy to be interfered with, such as macular holes and macular edema.
 
 This repository contains the official Pytorch implementation for DEFN networking and DWC Loss, as well as the pre-trained model for DEFN.
 
@@ -82,7 +82,7 @@ Segmentation results employing the isolated macular hole injection method, compa
   <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/Tables/train_Comprehensive.png"width=100% height=100%>
 </div>
 <p align=center>
-  Figure 7: The Training Results using Comprehensive Strategy.
+  Figure 7: The Training Results using the Comprehensive Strategy.
 </p>
 
 Segmentation results employing the comprehensive macular hole injection method, comparing the proposed DEFN, DEFN+DWC Loss, and prior segmentation models. The evaluation spans four classes: All (Average across all classes), MH (Macular Hole), ME (Macular Edema) and RA (Retina). The best values for each metric are highlighted in red, while the second-best values are highlighted in blue, and the values of our model are bolded.
