@@ -22,7 +22,7 @@ Hangzhou Dianzi University
   Figure 2: The network structure of DEFN. 
 </p>
 
-We proposed DEFN, a 3D OCT segmentation network for eye diseases with unobvious characteristics and easy to be interfered with, such as macular holes and macular edema.
+We proposed DEFN, a 3D OCT segmentation network for eye diseases with unobvious characteristics that are easily interfered with, such as macular holes and macular edema.
 
 This repository contains the official Pytorch implementation for DEFN networking and DWC Loss, as well as the pre-trained model for DEFN.
 
