@@ -12,7 +12,7 @@ Hangzhou Dianzi University
   <img src="https://github.com/IMOP-lab/DEFN-pytorch/blob/main/images/System_structure.png">
 </div>
 <p align=center>
-  Figure 1: The System structure.
+  Figure 1: The system structure.
 </p>
 
 <div align=center>
@@ -33,10 +33,10 @@ This repository contains the official Pytorch implementation for DEFN and DWC Lo
   <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/FuGH.png"width=70% height=70%>
 </div>
 <p align=center>
-  Figure 3: The FuGH Module.
+  Figure 3: The FuGH module.
 </p>
 
-The Fourier Group Harmonics (FuGH) module enhances noise reduction in OCT images by employing Fourier transformation for feature extraction in the frequency domain, enabling targeted noise filtration and efficient processing of periodic patterns with reduced computational complexity.
+The Fourier Group Harmonics (FuGH) module enhances noise reduction in OCT sequences by employing FFT for feature extraction in the frequency domain, enabling targeted noise filtration and efficient processing of periodic patterns.
 
 ### S3DSA Module
 
@@ -44,10 +44,10 @@ The Fourier Group Harmonics (FuGH) module enhances noise reduction in OCT images
   <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/S3DSA.png"width=70% height=70%>
 </div>
 <p align=center>
-  Figure 4: The S3DSA Module.
+  Figure 4: The S3DSA module.
 </p>
 
-The Simplified 3D Spatial Attention (S3DSA) module improves the segmentation of macular holes and edema in retinal images by optimizing spatial attention mechanisms.  It refines focus on crucial regions, enhancing segmentation quality and computational efficiency.
+The Simplified 3D Spatial Attention (S3DSA) module improves the segmentation of macular holes and edema in fundus OCT sequences by an optimized spatial attention mechanism. It refines focus on crucial regions, enhancing segmentation quality and computational efficiency.
 
 ### HSE Module
 
@@ -55,10 +55,10 @@ The Simplified 3D Spatial Attention (S3DSA) module improves the segmentation of 
   <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/HSE.png"width=70% height=70%>
 </div>
 <p align=center>
-  Figure 5: The HSE Module.
+  Figure 5: The HSE module.
 </p>
 
-The Harmonic Squeeze-and-Excitation Module (HSE) combines Fourier Group Harmonics (FuGH) and Squeeze-and-Excitation (SE) blocks to enhance the segmentation of macular holes and edema, by extending the model's view field and recalibrating feature weights.
+The Harmonic Squeeze-and-Excitation Module (HSE) combines FuGH and Squeeze-and-Excitation (SE) blocks to enhance the segmentation performance of macular holes and macular edema, by extending the model's view field and recalibrating feature weights.
 
 ## Experiment
 ### Baselines
