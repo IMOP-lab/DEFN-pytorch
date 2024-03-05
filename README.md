@@ -85,7 +85,7 @@ Segmentation results employing the isolated macular hole injection method, compa
   Figure 7: The Training Results using the Comprehensive Strategy.
 </p>
 
-Segmentation results employing the comprehensive macular hole injection method, comparing the proposed DEFN, DEFN+DWC Loss, and prior segmentation models. The evaluation spans four classes: All (Average across all classes), MH (Macular Hole), ME (Macular Edema) and RA (Retina). The best values for each metric are highlighted in red, while the second-best values are highlighted in blue, and the values of our model are bolded.
+Segmentation results employing the comprehensive macular hole injection method, comparing the proposed DEFN, DEFN+DWC Loss, and prior segmentation models. The evaluation spans four classes: All (Average across all classes), MH (Macular Hole), ME (Macular Edema), and RA (Retina). The best values for each metric are highlighted in red, while the second-best values are highlighted in blue, and the values of our model are bolded.
 
 ### Fine-tuning Results
 
@@ -93,7 +93,7 @@ Segmentation results employing the comprehensive macular hole injection method, 
   <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/Tables/finetune_Isolated.png"width=100% height=100%>
 </div>
 <p align=center>
-  Figure 8: The Fine-tuning Results using Isolated Strategy.
+  Figure 8: The Fine-tuning Results using the Isolated Strategy.
 </p>
 
 Segmentation results of fine-tuning after isolated macular hole injection training, comparing the proposed DEFN, DEFN+DWC Loss, and prior segmentation models. The evaluation spans four classes: All (Average across all classes), MH (Macular Hole), ME (Macular Edema), and RA (Retina). The best values for each metric are highlighted in red, while the second-best values are highlighted in blue, and the values of our model are bolded.
@@ -102,7 +102,7 @@ Segmentation results of fine-tuning after isolated macular hole injection traini
   <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/Tables/finetuen_Comprehensive.png"width=100% height=100%>
 </div>
 <p align=center>
-  Figure 9: The Fine-tuning Results using Comprehensive Strategy.
+  Figure 9: The Fine-tuning Results using the Comprehensive Strategy.
 </p>
 
 Segmentation results of fine-tuning after comprehensive macular hole injection training, comparing the proposed DEFN, DEFN+DWC Loss, and prior segmentation models. The evaluation spans four classes: All (Average across all classes), MH (Macular Hole), ME (Macular Edema), and RA (Retina). The best values for each metric are highlighted in red, while the second-best values are highlighted in blue, and the values of our model are bolded.
@@ -116,7 +116,7 @@ Segmentation results of fine-tuning after comprehensive macular hole injection t
   Figure 10: The Ablation Results.
 </p>
 
-The ablation study examined the backbone and modules of DEFN and our methods, including DEFN (DEFN backbone), HSE (Harmonic Squeeze-and-Excitation Module), FuGH (Fourier Group Harmonics), IMHI (Isolated Macular Hole Injection), CMHI (Comprehensive Macular Hole Injection), and DWC (DynamicWeightCompose). Optimal metric values are highlighted in red, while the next best are in blue.
+Ablation study on the backbone and the proposed methods, including DEFN (DEFN backbone), HSE (Harmonic Squeeze-and-Excitation module), FuGH (Fourier Group Harmonics module), IMHI (isolated macular hole injection), CMHI (comprehensive macular hole injection) and DWC (Dynamic Weight Compose Loss). The best values for each metric are highlighted in red, while the second-best values are highlighted in blue.
 
 ## 3D Reconstruction Results
 
@@ -124,7 +124,7 @@ The ablation study examined the backbone and modules of DEFN and our methods, in
   <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/Retinal_3D_%20reconstruction_Results.png"width=100% height=100%>
 </div>
 <p align=center>
-  Figure 11: The 3D Reconstruction Results.
+  Figure 11: The 3D reconstruction results.
 </p>
 
-The display includes five cases, each with original and reconstructed images.  The first row shows pre-segmentation images, rows two to five show reconstructions from five grid arrangements, and the sixth row shows a top-view of the reconstructions.  Yellow indicates macular holes, and green signifies macular edema.
+Five cases are presented with their original images and reconstruction outcomes. The first row exhibits the original images for each case. Rows two to five show the reconstructions based on four different rendering styles, while the sixth row provides a top view of the reconstruction results. Within the reconstructions, yellow regions indicate macular holes and blue regions signify macular edema.
