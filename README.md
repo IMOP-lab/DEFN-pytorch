@@ -30,7 +30,7 @@ This repository contains the official Pytorch implementation for DEFN and DWC Lo
 ### FuGH Module
 
 <div align=center>
-  <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/FuGH.png"width=50% height=50%>
+  <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/FuGH.png"width=70% height=70%>
 </div>
 <p align=center>
   Figure 3: The FuGH Module.
@@ -41,7 +41,7 @@ The Fourier Group Harmonics (FuGH) module enhances noise reduction in OCT images
 ### S3DSA Module
 
 <div align=center>
-  <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/S3DSA.png"width=50% height=50%>
+  <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/S3DSA.png"width=70% height=70%>
 </div>
 <p align=center>
   Figure 4: The S3DSA Module.
@@ -52,7 +52,7 @@ The Simplified 3D Spatial Attention (S3DSA) module improves the segmentation of 
 ### HSE Module
 
 <div align=center>
-  <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/HSE.png"width=50% height=50%>
+  <img src="https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch/blob/main/images/HSE.png"width=70% height=70%>
 </div>
 <p align=center>
   Figure 5: The HSE Module.
