@@ -1,4 +1,4 @@
-# DEFN: Dual-Encoder Fourier Group Harmonics Network for Three-Dimensional Macular Hole Reconstruction with Stochastic Retinal Defect Augmentation and Dynamic Weight Composition 
+# DEFN: Dual-Encoder Fourier Group Harmonics Network for Three-Dimensional Indistinct-Boundary Object Segmentation
 
 ### [Project page](https://github.com/IIPL-HangzhouDianziUniversity/DEFN-Pytorch) | [Paper](https://arxiv.org/abs/2311.00483) | [Our laboratory home page](https://github.com/IIPL-HangzhouDianziUniversity) 
 
