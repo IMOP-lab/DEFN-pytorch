@@ -4,9 +4,9 @@
 
 DEFN: Dual-Encoder Fourier Group Harmonics Network for Three-Dimensional Indistinct-Boundary Object Segmentation.<be>
 
-Xingru Huang, Yihao Guo, Jian Huang, Zhi Li, Tianyun Zhang, Kunyan Cai, Gaopeng Huang, Wenhao Chen, Zhaoyang Xu, Liangqiong Qu, Ji Hu, Tinyu Wang, Shaowei Jiang, Chenggang Yan, Yaoqi Sun, Xin Ye, Yaqi Wang
+Xiaohua Jiang, Yihao Guo, Jian Huang, Yuting Wu, Meiyi Luo, Zhaoyang Xu, Qianni Zhang, Xingru Huang, Hong He, Shaowei Jiang, Jing Ye, Mang Xiao
 
-Hangzhou Dianzi University
+Sir Run Run Shaw Hospital, Hangzhou Dianzi University
 
 <div align=center>
   <img src="https://github.com/IMOP-lab/DEFN-pytorch/blob/main/images/System_structure.png">
