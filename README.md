@@ -128,3 +128,6 @@ Ablation study on the backbone and the proposed methods, including DEFN (DEFN ba
 </p>
 
 Five cases are presented with their original images and reconstruction outcomes. The first row exhibits the original images for each case. Rows two to five show the reconstructions based on four different rendering styles, while the sixth row provides a top view of the reconstruction results. Within the reconstructions, yellow regions indicate macular holes and blue regions signify macular edema.
+
+## License
+This project is licensed under the [MIT license](https://github.com/IMOP-lab/DEFN-Pytorch/blob/main/LICENSE).
