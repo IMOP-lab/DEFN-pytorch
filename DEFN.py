@@ -279,7 +279,6 @@ class UpCat(nn.Module):
 
         return x
     
-
 class S3DSA(torch.nn.Module):
     def __init__(self, spatial_dims, in_channels):
         super().__init__()
@@ -288,11 +287,17 @@ class S3DSA(torch.nn.Module):
 
         self.conv = torch.nn.Conv3d(in_channels, 1, kernel_size=1, stride=1, padding=0)
         self.sigmoid = torch.nn.Sigmoid()
-
+        self.Norm = nn.InstanceNorm3d(num_features=1)
+        # self.Act = nn.ReLU(inplace=True)
+        
     def forward(self, x):
+        # b, c, w, h, d = x.shape
+        # x = rearrange(x, 'b c w h d -> (b d) c w h')
         attention = self.conv(x)
+        attention = self.Norm(attention)
         attention = self.sigmoid(attention)
         out = x * attention
+        # out = rearrange(out, '(b d) c w h -> b c w h d', b=b, d=d)
         return out
 
 class DEFN(nn.Module):
