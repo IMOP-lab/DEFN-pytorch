@@ -121,6 +121,3 @@
 
 ## License
 This project is licensed under the [MIT license](https://github.com/IMOP-lab/DEFN-Pytorch/blob/main/LICENSE).
-
-
-
