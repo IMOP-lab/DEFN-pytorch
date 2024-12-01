@@ -215,6 +215,7 @@ class DWCLoss(_Loss):
         self.lambda_boundary = lambda_boundary
         self.lambda_focal = lambda_focal
         self.old_pt_ver = not pytorch_after(1, 10)
+        
     def ce(self, input: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
         n_pred_ch, n_target_ch = input.shape[1], target.shape[1]
         if n_pred_ch != n_target_ch and n_target_ch == 1:
