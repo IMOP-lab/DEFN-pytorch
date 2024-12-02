@@ -285,7 +285,7 @@ class S3DSA(torch.nn.Module):
         self.spatial_dims = spatial_dims
         self.in_channels = in_channels
 
-        self.conv = torch.nn.Conv3d(in_channels, 1, kernel_size=1, stride=1, padding=0)
+        self.conv = torch.nn.Conv3d(in_channels, 1, kernel_size=3, stride=1, padding=1)
         self.sigmoid = torch.nn.Sigmoid()
         self.Norm = nn.InstanceNorm3d(num_features=1)
         # self.Act = nn.ReLU(inplace=True)
@@ -436,10 +436,3 @@ class DEFN(nn.Module):
         out = self.decoder1(dec0)
 
         return self.out(out)
-
-
-
-
-
-
-
